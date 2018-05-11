@@ -9,6 +9,6 @@ int main()
 
     LightOrgan::Configs conf;
     lp.init(conf);
-    cout << "Hello World!" << endl;
+    cout << "Hello World!!" << endl;
     return 0;
 }
