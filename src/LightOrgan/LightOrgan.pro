@@ -4,5 +4,6 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 include(LightOrganPanel/lightorganpanel.pri)
+include(GPIO/GPIO.pri)
 
 SOURCES += main.cpp
