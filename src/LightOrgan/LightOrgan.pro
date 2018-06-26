@@ -5,20 +5,7 @@ CONFIG -= qt
 
 include(LightOrganPanel/lightorganpanel.pri)
 include(GPIO/GPIO.pri)
+include(bcm2835/bcm2835.pri)
 
 SOURCES += main.cpp \
-    blink.cpp \
-    GPIO/gpiosimulation.cpp \
-    LightOrganPanel/levelindicator.cpp \
-    LightOrganPanel/lightorganpanel.cpp \
-    blink.cpp \
-    main.cpp \
-    bcm2835/bcm2835.c
-
-HEADERS += \
-    bcm2835/bcm2835.h \
-    GPIO/gpiointerface.h \
-    GPIO/gpiosimulation.h \
-    LightOrganPanel/levelindicator.h \
-    LightOrganPanel/lightorganinterface.h \
-    LightOrganPanel/lightorganpanel.h
+    blink.cpp
